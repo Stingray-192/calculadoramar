@@ -1,0 +1,40 @@
+.calculator {
+  width: 270px; /* Ajusta el tamaño de la calculadora */
+  margin: 50px auto; /* Centra la calculadora */
+  border: 2px solid black; /* Añade un borde */
+  border-radius: 10px; /* Redondea los bordes */
+  background-color: #f9f9f9; /* Establece un color de fondo */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra */
+  position: relative; /* Establece una posición relativa */
+  z-index: 1; /* Asegura que la calculadora esté en la parte superior */
+}
+
+.screen {
+  width: 87%;
+  margin: 10px;
+  padding: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Establece la imagen de fondo */
+body {
+  background-image: url('calculadoramate.avif'); /* Ruta de la imagen */
+  background-size: cover; /* Cubre todo el fondo */
+  background-position: center; /* Centra la imagen */
+  height: 100vh; /* Ajusta la altura de la imagen al tamaño de la ventana */
+  margin: 0; /* Elimina los márgenes predeterminados del cuerpo */
+  display: flex; /* Establece el contenedor principal como un flexbox */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+}
